@@ -1,0 +1,77 @@
+SPF Analyzer
+
+Overview
+
+The SPF Analyzer is a C99 program that processes student data from two datasets:
+
+Curricular Data (CSV format) - Contains academic-related information such as study hours, attendance, and exam scores.
+
+Extracurricular Data (YAML format) - Includes details about extracurricular activities, physical activity, and sleep hours.
+
+The program performs various analyses and generates structured CSV reports based on different tasks.
+
+Features
+
+Reads CSV and YAML files and merges them based on Record_ID.
+
+Generates filtered reports based on predefined conditions.
+
+Handles six different tasks as per requirements.
+
+Tasks
+
+You can execute the program with a specific task using:
+./spf_analyzer --TASK="<task_number>"
+
+Description
+
+Task:1
+
+Generate a CSV file containing Record_ID and Exam_Score for all students.
+
+Task:2
+
+Generate a CSV file with all records from the extracurricular dataset.
+
+Task:3
+
+Merge both datasets and generate a CSV containing all columns for students with Exam_Score > 90.
+
+Task:4
+
+Generate a CSV containing Record_ID and Exam_Score for students with 100% attendance.
+
+Task:5
+
+Generate a CSV for students where Sleep_Hours >= Hours_Studied.
+
+Task:6
+
+Generate a CSV containing Record_ID, Exam_Score, and Extracurricular_Activities for students scoring below 60.
+
+Installation & Usage
+
+Compilation
+
+Ensure you have gcc installed and compile the program using:
+gcc spf_analyzer.c -std=c99 -lm -o spf_analyzer
+
+Running the Program
+
+Execute the program with the required task:
+./spf_analyzer --TASK="3"
+
+Output
+
+The program generates output.csv based on the task.
+
+Run diff output.csv testXX.csv to verify correctness.
+
+Contributors
+
+Mihail Maravelias
+
+
+
+
+
