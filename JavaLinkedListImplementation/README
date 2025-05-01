@@ -1,0 +1,21 @@
+# JavaLinkedListImplementation (SENG 265 - Assignment 3)
+
+This project contains a custom implementation of a singly linked list in Java, created for Assignment 3 
+of the SENG 265 course at the University of Victoria. The list supports basic operations such as insertion, deletion, search, and traversal.
+
+## Features
+- Add, remove, and retrieve elements by index
+- Traverse and print list contents
+- Reverse the linked list
+- Fully tested with unit tests
+
+## Files
+- `A3LinkedList.java`: Linked list implementation
+- `A3List.java`: List interface
+- `A3Node.java`: Node class used internally by the list
+- `A3Tester.java`: Unit tests for validating list functionality
+
+## How to Run
+```bash
+javac *.java
+java A3Tester
