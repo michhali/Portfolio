@@ -1,1 +1,26 @@
-a
+# CSV Analyzer (SENG 265 - Assignment 2)
+
+A Python-based command-line tool that processes and analyzes structured CSV data, 
+designed for Assignment 2 of the SENG 265 course at the University of Victoria. It reads log-style input and generates summaries based on specified flags.
+
+
+## Features
+- Reads and parses structured CSV data
+- Supports command-line arguments for flexible input
+- Summarizes SPF data by domain, sender, or result
+- Generates output reports to the console or file
+
+
+## Usage
+
+```bash
+python3 spf_analyzer.py -i test01.csv -d example.com -s
+
+## Files
+- `spf_analyzer.py`: Main Python script
+- `a2-data.csv`: Sample data file
+- `test01.csv`: Provided test data
+
+## Author
+Mihail Maravelias  
+University of Victoria – Software Engineering
