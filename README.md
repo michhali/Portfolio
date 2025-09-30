@@ -59,10 +59,6 @@ Built spreadsheets that compare living and working in Calgary, Vancouver, and St
 
 ---
 
-## Selected Results
-- Cut content video assembly time to under 3 minutes per clip for fully automated Reddit to YouTube pipeline
-- Created reusable SQL queries that surface weekly follow ups and show application trends
-- Delivered clean UI prototypes with Tailwind and shadcn/ui that are easy to extend
 
 ## Get in touch
 I am looking for Fall 2025 to Spring 2026 co op roles in software, data, or automation.  
